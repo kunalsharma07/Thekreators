@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="animation.css">
+    <link href="https://fonts.googleapis.com/css?family=josefin+sans&display=swap" rel="stylesheet">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<header>
+    
+<nav id="sidenav">
+    <ul>
+        <li><a href="#a">Home</a></li>
+        <li><a href="#b">Gallery</a></li>
+        <li><a href="#c">Blog</a></li>
+        <li><a href="#d">Designing</a></li>
+        <li><a href="#">Contact us</a></li>
+</nav>
+<img src="images/menu.png.svg" id="menubtn">
+
+<script>
+    var menubtn = document.getElementById("menubtn");
+    var sidenav = document.getElementById("sidenav");
+
+    sidenav.style.right = "-250px";
+    menubtn.onclick = function (){
+    if (sidenav.style.right == "-250px"){
+         sidenav.style.right = "0";
+    }
+    else{
+        sidenav.style.right = "-250px";
+    }
+}
+
+var scroll = new smoothscroll('a[href*="#d"}',{
+    speed: 5,
+    speedAsDuration: true
+
+});
+
+
+
+</script>
+        
+        <main>
+        <section>
+            <h3>WELCOME TO DESIGNER'S WORLD</h3>
+            <p>LETS BECOME <span id="spin"></span></p>
+            <p>Show Your Creativity</p>
+            <a href="#" class="btnone">Learn more</a>
+            <a href="signup.html" target="_blank"class="btntwo">Signup here</a>
+            
+            </section>
+        
+        </main> 
+    </header>
+    <p id="a">  SOFTWARES FOR DESIGNIG
+</p>
+
+<p id="b"> There Are Some Free Softwares For Linux</p>
+<p id="c"> <a href="https://en.wikipedia.org/wiki/GIMP" target="_blank">1.GIMP(Gnu Image Manipulation Program)</a></p>
+<img src="images/index.jpeg"><br>
+<P>GIMP (/ɡɪmp/ GHIMP; GNU Image Manipulation Program) is a free and open-source raster graphics editor[4] used for image retouching and editing, free-form drawing, converting between different image formats, and more specialized tasks.
+
+<P>GIMP is released under GPLv3+ licenses and is available for Linux, macOS, and Microsoft Windows.</P> </P>
+<p id="d"><a href="https://en.wikipedia.org/wiki/Blender_(software)" target="_blank">2.Blender</a></p>
+         <img src="images/blender.svg"><br>
+         Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality and computer games. <P>Blender's features include 3D modeling, UV unwrapping, texturing, raster graphics editing, rigging and skinning, fluid and smoke simulation, particle simulation, soft body simulation, sculpting, animating, match moving, rendering, motion graphics, video editing, and compositing.</P> <br>
+
+         <P class="e"><a href="https://en.wikipedia.org/wiki/Inkscape" target="_blank">3.Inkscape</a></p>
+            <img src="images/index.jpg"><br>
+            <P>Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in Scalable Vector Graphics (SVG) format. Other formats can be imported and exported.</P>
+
+<P> Inkscape can render primitive vector shapes (e.g. rectangles, ellipses, polygons, arcs, spirals, stars and 3D boxes) and text. These objects may be filled with solid colors, patterns, radial or linear color gradients and their borders may be stroked, both with adjustable transparency. Embedding and optional tracing of raster graphics is also supported, enabling the editor to create vector graphics from photos and other raster sources. Created shapes can be further manipulated with transformations, such as moving, rotating, scaling and skewing. </P>
+<br>
+<P class="f"> ABOUT US</P>
+<p >I am a student of 12 class from Delhi(Shadara)</p>
+    </body>
+</html>
